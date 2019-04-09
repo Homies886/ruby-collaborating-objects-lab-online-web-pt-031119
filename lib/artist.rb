@@ -33,7 +33,6 @@ class Artist
     self.all.find {|artist| artist.name == name }
   end
 
-
   def self.create(name)
     self.new(name).tap {|artist| artist.save}
   end
