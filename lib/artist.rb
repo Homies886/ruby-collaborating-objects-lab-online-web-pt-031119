@@ -10,7 +10,11 @@ class Artist
   
   def add_song(title)
     
-  end  
+  end
+  
+  def songs
+    @songs
+  end
   
   def all
     @@all
