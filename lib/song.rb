@@ -14,8 +14,8 @@ class Song
     new_song
   end
   
-  def artist_name
-    self.artist.name if artist
+  def artist_name=(name)
+    
   end 
  
 end
